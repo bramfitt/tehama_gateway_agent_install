@@ -19,7 +19,7 @@ Create a folder for the Tehama Gateway Agent (ensure folder is not in the /tmp d
 Enter the tehama folder, type:   <b>cd tehama</b>
 
 Download the install script, type:   
-<b>wget https://raw.githubusercontent.com/pythian/tehama_gateway_agent_install/master/get-agent.sh</b>
+<b>wget https://raw.githubusercontent.com/bramfitt/tehama_gateway_agent_install/master/get-agent.sh</b>
 
 Set permissions:   <b>chmod 755 get-agent.sh</b>
 
