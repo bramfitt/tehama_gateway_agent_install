@@ -213,7 +213,11 @@ if [ ! -z "$rclocal" ]; then
 else
     echo "No rc.local file located. The agent will not auto-start on system reboot"
 fi
-    
+
+# Kill any old copiies of the agent process
+echo "Killing any old copiies of the agent process with the command 'killall agent'"
+killall agent
+
 # Run the agent
 echo "Running the agent with the command 'nohup $program 2>&1 &'"
 nohup "$program" 2>&1 &
